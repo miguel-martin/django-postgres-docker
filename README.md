@@ -17,4 +17,4 @@ Miguel M miguelm[at]unizar[dot]es
 ## License
 
 European Union Public Licence V. 1.2 
-Details @ https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_es.pdf
+Details @ LICENSE.txt
