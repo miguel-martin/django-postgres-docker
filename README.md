@@ -9,6 +9,38 @@ Run `sudo docker-compose run web django-admin startproject myProjectName .` to:
 - create a django project in ./myProjectName/
 - run a web server accesible in localhost:8000
 
+By default, django project will use sqlite. To use Postgres, edit myProjectName/settings.py and change database 
+
+From:
+```
+# Database
+# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
+
+To 
+```
+# Database
+# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
+    }
+}
+```
+
 ## Author 
 
 Miguel M miguelm[at]unizar[dot]es
