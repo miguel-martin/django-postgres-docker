@@ -17,4 +17,4 @@ Miguel M miguelm[at]unizar[dot]es
 ## License
 
 European Union Public Licence V. 1.2 
-Details @ LICENSE.txt
+[LICENCE.txt](LICENCE.txt)
